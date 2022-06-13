@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "mcreworked",
+  "version": "${version}",
+
+  "name": "MC Reworked",
+  "description": "This mod reworks different aspects of Minecraft, adding to the overall experience.",
+  "authors": [
+    "RGDev"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/mcreworked/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.rgdev.mcreworked.MCReworked"
+    ]
+  },
+  "mixins": [
+    "mcreworked.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
